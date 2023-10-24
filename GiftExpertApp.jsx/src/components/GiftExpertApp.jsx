@@ -24,8 +24,8 @@ export const GiftExpertApp = () => {
         {/* listado de gift */}
         {
             categories.map((category) => (
-                <GiftGrid key={category} category={category}/>
-            )
+                  <GiftGrid key={category} category={category}/>
+                )
             )
         }        
         </>
