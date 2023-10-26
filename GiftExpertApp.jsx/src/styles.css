@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+  margin: 0 10%;
+  width: 80%;
+  height: 32px;
+  padding: 16px;
+  border: 2px solid grey;
+  border-radius: 8px;
+}
+.card{
+  margin: 0 10%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
